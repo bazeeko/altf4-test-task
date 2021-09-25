@@ -14,7 +14,7 @@ func IndexHandler(w http.ResponseWriter, r *http.Request) {
 		log.Fatalln("Couldn't get books", err)
 	}
 
-	t, err := template.ParseFiles("static/index.html")
+	t, err := template.ParseFiles("index.html")
 	if err != nil {
 		log.Fatalln("Coudn't parse files", err)
 	}
