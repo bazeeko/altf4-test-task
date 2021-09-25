@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    float: right;
+}
+
+th, td {
+    border: 2px solid black;
+}
